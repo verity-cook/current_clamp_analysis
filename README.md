@@ -18,11 +18,14 @@ The type of protocol saved in each file is got from the meta data but the analys
 ### Cell ID
 For comparing between different conditions the identiy of the cell should be recorded in a csv in the form 
 
-|   Date   | Cell |     ID    |
-|   ____   | ____ |    ___    | 
-| YYYYMMDD |   n  | condition |
+| Date        | Cell        | ID          |
+| ----------- | ----------- | ----------- |
+| YYYYMMDD    | n           | condition   |
+| 20220718    | 3           | Saline      |
+
 
 ### Run code
 ```cell_analysis_methods.py``` contains the fucntions for the analysis
 ```cell_analysis.ipynb``` run the cells to create a pickle file containing a pandas DataFrame with all of the data from the analysis, ready to be plotted. 
-```plot_cell_data.ipynb``` run the cells to create and save the plots in a folder caled "plots".  
+```plot_cell_data.ipynb``` run the cells to create and save the plots in a folder caled "plots". 
+
